@@ -6,6 +6,13 @@ La aplicación implementa un CRUD completo sobre una base de datos SQLite y util
 
 ---
 
+## 🧑‍💻 Integrantes
+
+* Jorge Luis Vargas Partida
+* Juan Alejandro Rodriguez Sanchez
+
+---
+
 ## ✨ Características Principales
 
 La aplicación se divide en tres secciones principales, accesibles a través de una `BottomNavigationBar`:
@@ -51,6 +58,31 @@ La aplicación se divide en tres secciones principales, accesibles a través de 
 
 ---
 
+## 📦 Dependencias (pubspec.yaml)
+
+El proyecto utiliza las siguientes dependencias de Dart y Flutter:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Para soporte de internacionalización y localización (fechas en español)
+  flutter_localizations:
+    sdk: flutter
+
+  # Base de datos SQLite
+  sqflite: ^2.4.2
+
+  # Utilidad para encontrar la ruta de la base de datos
+  path: ^1.9.1
+
+  # Formateo de fechas y números
+  intl: ^0.20.2
+```
+
+---
+
 ## 📂 Esquema de la Base de Datos (SQLite)
 
 La aplicación utiliza 4 tablas relacionales con integridad referencial (`FOREIGN KEY` con `ON DELETE CASCADE`).
@@ -66,7 +98,7 @@ La aplicación utiliza 4 tablas relacionales con integridad referencial (`FOREIG
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/TuUsuario/u3_practica2_checador.git](https://github.com/TuUsuario/u3_practica2_checador.git)
+    git clone https://github.com/JorgeVargas03/u3_practica2_checador.git
     ```
 2.  Navega a la carpeta del proyecto:
     ```bash
