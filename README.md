@@ -6,7 +6,7 @@ La aplicación implementa un CRUD completo sobre una base de datos SQLite y util
 
 ---
 
-## 🧑‍💻 Integrantes
+## 👥 Integrantes
 
 * Jorge Luis Vargas Partida
 * Juan Alejandro Rodriguez Sanchez
@@ -38,7 +38,7 @@ La aplicación se divide en tres secciones principales, accesibles a través de 
 
 ---
 
-## 🛠️ Tecnologías y Widgets Utilizados
+## 💻 Tecnologías y Widgets Utilizados
 
 * **Framework:** Flutter
 * **Lenguaje:** Dart
