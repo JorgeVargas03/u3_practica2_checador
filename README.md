@@ -27,7 +27,7 @@ La aplicación se divide en tres secciones principales, accesibles a través de 
     * **Consulta 1:** Buscar profesores por hora y edificio.
     * **Consulta 2:** Mostrar todos los profesores que asistieron en una fecha específica (seleccionada con `showDatePicker`).
 
-### 3. 🗂️ Administración (CRUD)
+### 3. 👨‍💼 Administración (CRUD)
 * Accesible desde un **`Drawer`** (menú lateral).
 * Gestiona las 4 tablas de la base de datos: `Profesor`, `Materia`, `Horario` y `Asistencia`.
 * **Capturar:** Formularios limpios para insertar nuevos registros.
